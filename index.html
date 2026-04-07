@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Nada Mohammed">
     <title>My Website</title>
 </head>
@@ -9,12 +11,18 @@
 <body>
 
 <header>
-    <h1>Nada Mohammed</h1>
-    <p>Software Engineering Student | Universiti Teknologi Malaysia</p>
+    <div class="header-text">
+        <h1>Nada Mohammed</h1>
+        <p>Software Engineering Student | Universiti Teknologi Malaysia</p>
+    </div>
+    <div class="header-image">
+        <img src="Avatar.avif" alt="Profile photo">
+    </div>
 </header>
 
 <nav>
   <ul>
+    <li><a href="index.html" class="active">Home</a></li>
     <li><a href="aboutme.html">About Me</a></li>
     <li><a href="skills.html">Skills</a></li>
     <li><a href="academic.html">Academic Record</a></li>
@@ -31,7 +39,24 @@
 
     <section>
         <h2>Overview</h2>
-        <p>Explore my work and skills.</p>
+        <div class="card-grid">
+            <div class="card card--featured">
+                <h3>About Me</h3>
+                <p>I am a student passionate about web development, origami, and movies.</p>
+            </div>
+            <div class="card">
+                <h3>Skills</h3>
+                <p>Front-end, Back-end, and Database development.</p>
+            </div>
+            <div class="card">
+                <h3>Projects</h3>
+                <p>Explore my portfolio projects and work samples.</p>
+            </div>
+            <div class="card">
+                <h3>Contact</h3>
+                <p>Get in touch via the contact form or email.</p>
+            </div>
+        </div>
     </section>
 </main>
 
