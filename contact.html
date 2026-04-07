@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
 
 <body>
 
+<header>
+    <div class="header-text">
+        <h1>Nada Mohammed</h1>
+        <p>Software Engineering Student | Universiti Teknologi Malaysia</p>
+    </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="academic.html">Academic Record</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
     <h2>Contact Me</h2>
 
     <form action="#" method="post">
 
     <label for="name">Name:</label>
-    <input type="text" id="name" name="name"
-    style="border:1px solid black; padding:5px;" required><br><br>
+    <input type="text" id="name" name="name" required><br><br>
 
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email"
-    style="background-color:lightgray;" required><br><br>
+    <input type="email" id="email" name="email" required><br><br>
 
     <label for="phone">Phone:</label>
     <input type="tel" id="phone" name="phone"><br><br>
@@ -50,12 +69,14 @@
     <label for="message">Message:</label><br>
     <textarea id="message" maxlength="200"></textarea><br><br>
 
-    <button type="submit"
-    style="color:white; background-color:black; padding:10px;">
-    Submit
-    </button>
+    <button type="submit">Submit</button>
 
     </form>
+</main>
+
+<footer>
+    <small>© 2026 Nada Mohammed</small>
+</footer>
 
 </body>
 </html>
